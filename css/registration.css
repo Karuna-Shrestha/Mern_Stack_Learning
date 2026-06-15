@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: cadetblue;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+
+}
+.container1{
+    background: #B0BA99;
+    height: 80vh;
+    width: 80vw;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    display: flex;
+}
+.container2{
+    height: 100%;
+    background: #000;
+    width: 50%;
+  border-radius: 20px;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: transparent;
+}
+.container3{
+ padding: 30px;
+ border: radius 20px;;
+}
+input{
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 30px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border: 2px solid blue;
+    background: blue0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.email{
+    margin-left: 60px;
+}
+
+.dateofbirth{
+    margin-left:14px;
+}
+
+.setusername{
+    margin-left:8px;
+
+}
+
+.setpassword{
+    margin-left:15px;
+}
+
+.register{
+    background-color:blue;
+    color:white
+    transition: all 0.2s ease-in-out;
+}
+
+.register:hover{
+    background-color: blue;
+    color:white;
+}

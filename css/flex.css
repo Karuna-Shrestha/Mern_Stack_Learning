@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    height: 80vh;
+    border: 4px solid black;
+    background-color: aqua;
+}
+
+.item{
+    height: 20 rem;
+    width: 20rem;
+    background-color: brown;
+    border: 2px solid black;
+
+}
+
