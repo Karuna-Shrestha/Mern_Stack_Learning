@@ -3,6 +3,8 @@ import Register from "./Pages/Register";
 import Form from "./components/Form";
 import Stopwatch from "./components/StopWatch";
 import ConfirmBox from "./components/ConfirmBox";
+import PostAPIFetch from "./Pages/PostAPIFetch";
+import FetchAPI from "./Pages/FetchAPI";
 
 
 const App = () => {
@@ -11,7 +13,9 @@ const App = () => {
       {/* <Register/> */}
       {/* <Form/> */}
       {/* <Stopwatch/> */}
-      <ConfirmBox/>
+      {/* <ConfirmBox/> */}
+      {/* <PostAPIFetch/> */}
+      <FetchAPI/>
      
     </>
   )
