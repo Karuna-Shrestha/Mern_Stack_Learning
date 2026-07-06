@@ -5,6 +5,7 @@ import Stopwatch from "./components/StopWatch";
 import ConfirmBox from "./components/ConfirmBox";
 import PostAPIFetch from "./Pages/PostAPIFetch";
 import FetchAPI from "./Pages/FetchAPI";
+import OnOffButton from "./components/OnOffButton";
 
 
 const App = () => {
@@ -15,10 +16,11 @@ const App = () => {
       {/* <Stopwatch/> */}
       {/* <ConfirmBox/> */}
       {/* <PostAPIFetch/> */}
-      <FetchAPI/>
+      {/* <FetchAPI/> */}
+      <OnOffButton/>
      
     </>
   )
 }
 
-export default App;
+export default OnOffButton;
