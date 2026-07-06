@@ -6,6 +6,8 @@ import ConfirmBox from "./components/ConfirmBox";
 import PostAPIFetch from "./Pages/PostAPIFetch";
 import FetchAPI from "./Pages/FetchAPI";
 import OnOffButton from "./components/OnOffButton";
+import DescriptionBox from "./components/DescriptionBox";
+import SliderPage from "./components/Slider";
 
 
 const App = () => {
@@ -17,10 +19,12 @@ const App = () => {
       {/* <ConfirmBox/> */}
       {/* <PostAPIFetch/> */}
       {/* <FetchAPI/> */}
-      <OnOffButton/>
-     
+      {/* <OnOffButton/> */}
+      
+      {/* <DescriptionBox/>    */}
+      <SliderPage/>
     </>
   )
 }
 
-export default OnOffButton;
+export default SliderPage;
